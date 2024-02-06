@@ -1,0 +1,14 @@
+.default-layout-root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.default-layout-root > .container {
+  padding-top: 3rem;
+  flex-grow: 1;
+}
+
+.default-layout-root > .container > h1 {
+  margin-bottom: 1.5rem;
+}

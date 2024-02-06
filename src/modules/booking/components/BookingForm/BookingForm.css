@@ -1,0 +1,24 @@
+.booking-form-root {
+  width: 100%;
+}
+
+.booking-form-root .form-input-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.booking-form-root .form-input-wrapper .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.booking-form-root .form-input-wrapper label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.booking-form-root .form-input-wrapper .error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  margin-bottom: -1rem;
+}

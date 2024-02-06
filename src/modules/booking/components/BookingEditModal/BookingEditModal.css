@@ -1,0 +1,12 @@
+.booking-edit-modal-root {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media screen and (min-width: 780px) {
+  .booking-edit-modal-root {
+    flex-direction: row;
+  }
+}

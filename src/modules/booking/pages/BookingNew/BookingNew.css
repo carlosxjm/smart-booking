@@ -1,0 +1,16 @@
+.booking-new-root {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+
+.booking-new-root .property-card-wrapper {
+  min-width: 60%;
+}
+
+@media screen and (min-width: 780px) {
+  .booking-new-root {
+    flex-direction: row;
+  }
+}

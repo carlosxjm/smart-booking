@@ -1,0 +1,244 @@
+{
+  "bookings": [
+    {
+      "id": "06128847-0a97-47c3-b52b-93b8763910ab",
+      "propertyId": 1,
+      "startDate": "2024-02-04",
+      "endDate": "2024-02-04",
+      "guestName": "John Li",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "9dd98a10-7434-4d15-91d8-f63d6371dc16",
+      "propertyId": 2,
+      "startDate": "2024-02-05",
+      "endDate": "2024-02-05",
+      "guestName": "Emily Smith",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "ea22711e-5783-440b-9170-b2f331195026",
+      "propertyId": 3,
+      "startDate": "2024-02-06",
+      "endDate": "2024-02-06",
+      "guestName": "Michael Johnson",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "e271d042-2cb1-40c6-b934-39bb72c6a19a",
+      "propertyId": 4,
+      "startDate": "2024-02-07",
+      "endDate": "2024-02-07",
+      "guestName": "Sophia Brown",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "564df28f-9b34-44dd-9036-7a3c7be271c3",
+      "propertyId": 5,
+      "startDate": "2024-02-08",
+      "endDate": "2024-02-08",
+      "guestName": "William Davis",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "f2b88154-34ac-45cd-9999-a39ce5e79a27",
+      "propertyId": 6,
+      "startDate": "2024-02-09",
+      "endDate": "2024-02-09",
+      "guestName": "Olivia Wilson",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "aaa81ddc-b1ba-4f41-b0ed-5f7889fefc8d",
+      "propertyId": 7,
+      "startDate": "2024-02-10",
+      "endDate": "2024-02-10",
+      "guestName": "James Martinez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "b307e8f9-d7f8-44be-8f3f-7e3f187d38aa",
+      "propertyId": 8,
+      "startDate": "2024-02-11",
+      "endDate": "2024-02-11",
+      "guestName": "Emma Anderson",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "0b41f56f-6cb6-4800-89bd-d4492d4c47b8",
+      "propertyId": 1,
+      "startDate": "2024-02-12",
+      "endDate": "2024-02-12",
+      "guestName": "Daniel Thomas",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "8e1ff40d-9770-4afe-b873-b1385d80bb80",
+      "propertyId": 2,
+      "startDate": "2024-02-13",
+      "endDate": "2024-02-13",
+      "guestName": "Ava Taylor",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "4dd76baf-be27-45e5-b432-b042385326f9",
+      "propertyId": 3,
+      "startDate": "2024-02-14",
+      "endDate": "2024-02-14",
+      "guestName": "Matthew Hernandez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "ffe13cb1-7a6a-4b21-a940-5abb6f413ab2",
+      "propertyId": 4,
+      "startDate": "2024-02-15",
+      "endDate": "2024-02-15",
+      "guestName": "Chloe Lopez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "3b8b0ff6-a753-4eb3-a3f1-dbd574198436",
+      "propertyId": 5,
+      "startDate": "2024-02-16",
+      "endDate": "2024-02-16",
+      "guestName": "Ethan Gonzalez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "fee1074e-d274-4024-8d16-331dbfc9906b",
+      "propertyId": 6,
+      "startDate": "2024-02-17",
+      "endDate": "2024-02-17",
+      "guestName": "Isabella Perez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "72b8be20-bcc3-47d3-b4d8-88b6c17cae9d",
+      "propertyId": 7,
+      "startDate": "2024-02-18",
+      "endDate": "2024-02-18",
+      "guestName": "Jacob Wilson",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "832f8a34-5ce7-460a-9498-f088110968d0",
+      "propertyId": 8,
+      "startDate": "2024-02-19",
+      "endDate": "2024-02-19",
+      "guestName": "Mia Martinez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "411fefab-94d5-4730-8494-68fb029b91d7",
+      "propertyId": 1,
+      "startDate": "2024-02-17",
+      "endDate": "2024-02-20",
+      "guestName": "Alexander Brown",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "6bd42122-4dc7-4f7b-9ecf-fec63ef97c88",
+      "propertyId": 2,
+      "startDate": "2024-02-21",
+      "endDate": "2024-02-21",
+      "guestName": "Madison Davis",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "9b04d933-b615-403a-83ef-7577fd841e2b",
+      "propertyId": 3,
+      "startDate": "2024-02-22",
+      "endDate": "2024-02-22",
+      "guestName": "William Rodriguez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "b67d13f0-077c-4cb5-8a38-66ee9bcc8cef",
+      "propertyId": 4,
+      "startDate": "2024-02-23",
+      "endDate": "2024-02-23",
+      "guestName": "Samantha Martinez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "b7ec997e-0089-4d26-8f29-6637bd8d42b2",
+      "propertyId": 5,
+      "startDate": "2024-02-24",
+      "endDate": "2024-02-24",
+      "guestName": "David Johnson",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "59f93178-ce2b-4480-b44d-19c5055c0ba8",
+      "propertyId": 6,
+      "startDate": "2024-02-25",
+      "endDate": "2024-02-25",
+      "guestName": "Sophia Brown",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "a23532df-01af-450b-bb70-4ddd72019cfe",
+      "propertyId": 7,
+      "startDate": "2024-02-26",
+      "endDate": "2024-02-26",
+      "guestName": "John Smith",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "fa813839-84da-41e5-bfc4-496ba460734d",
+      "propertyId": 8,
+      "startDate": "2024-02-27",
+      "endDate": "2024-02-27",
+      "guestName": "Isabella Martinez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "1997356c-aa5c-4c31-ac92-f54afada495c",
+      "propertyId": 1,
+      "startDate": "2024-02-23",
+      "endDate": "2024-02-28",
+      "guestName": "Michael Davis",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "c70565cd-055a-4af8-8eb0-33a3336d339f",
+      "propertyId": 2,
+      "startDate": "2024-02-29",
+      "endDate": "2024-02-29",
+      "guestName": "Sophia Rodriguez",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "050e4b97-aa88-4c1d-a6e7-97a7890c828c",
+      "propertyId": 3,
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-01",
+      "guestName": "Ethan Johnson",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "cb3da290-74f6-4f5d-9a22-5df388d6dfdd",
+      "propertyId": 4,
+      "startDate": "2024-03-02",
+      "endDate": "2024-03-02",
+      "guestName": "Ava Brown",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "139171e2-121f-474d-a779-f05f4f7f8951",
+      "propertyId": 5,
+      "startDate": "2024-03-03",
+      "endDate": "2024-03-03",
+      "guestName": "Matthew Wilson",
+      "contactNumber": "1234567890"
+    },
+    {
+      "id": "e101d2ea-30d2-48c6-97d0-caabd3b79d9b",
+      "propertyId": 6,
+      "startDate": "2024-03-04",
+      "endDate": "2024-03-04",
+      "guestName": "Olivia Johnson",
+      "contactNumber": "1234567890"
+    }
+  ]
+}

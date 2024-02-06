@@ -1,0 +1,124 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Modern Apartment in Downtown",
+      "description": "Beautiful modern apartment located in the heart of downtown. Close to all amenities and public transportation.",
+      "price_per_month": 1500,
+      "location": "123 Main Street, Cityville",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1000,
+      "image": "/images/properties/1.png",
+      "features": ["Balcony", "Hardwood Floors", "Gym Access"]
+    },
+    {
+      "id": 2,
+      "title": "Spacious Family Home with Garden",
+      "description": "Lovely family home with ample space for kids and pets. Large backyard garden perfect for outdoor activities.",
+      "price_per_month": 2500,
+      "location": "456 Elm Street, Suburbia",
+      "bedrooms": 4,
+      "bathrooms": 2.5,
+      "sqft": 2500,
+      "image": "/images/properties/2.png",
+      "features": ["Backyard Garden", "Fireplace", "Walk-in Closet"]
+    },
+    {
+      "id": 3,
+      "title": "Luxury Beachfront Villa",
+      "description": "Exquisite villa situated right on the beachfront with breathtaking ocean views. Perfect for luxury living or vacation rentals.",
+      "price_per_month": 5000,
+      "location": "789 Ocean Avenue, Beachtown",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 4000,
+      "image": "/images/properties/3.png",
+      "features": ["Private Pool", "Ocean View Terrace", "Gourmet Kitchen"]
+    },
+    {
+      "id": 4,
+      "title": "Cozy Studio Apartment",
+      "description": "Charming studio apartment ideal for students or young professionals. Conveniently located near universities and downtown area.",
+      "price_per_month": 900,
+      "location": "567 College Avenue, Urban Center",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 500,
+      "image": "/images/properties/4.png",
+      "features": ["Pet-friendly", "Laundry Facilities", "Utilities Included"]
+    },
+    {
+      "id": 5,
+      "title": "Rustic Cabin Retreat",
+      "description": "Quaint cabin nestled in the woods, perfect for a peaceful retreat or nature lovers. Fully furnished with cozy fireplace.",
+      "price_per_month": 1200,
+      "location": "789 Forest Road, Woodland",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 800,
+      "image": "/images/properties/5.png",
+      "features": [
+        "Wood-burning Fireplace",
+        "Deck with Forest View",
+        "Hiking Trails Nearby"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Downtown Loft with City Views",
+      "description": "Sleek and modern loft apartment with stunning city views. Perfect for urban professionals seeking a stylish living space.",
+      "price_per_month": 3000,
+      "location": "101 High Street, Metropolis",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1500,
+      "image": "/images/properties/6.png",
+      "features": [
+        "City View Windows",
+        "Open Concept Design",
+        "Roof Deck Access"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Lakefront Cottage with Dock",
+      "description": "Charming cottage on the shores of a tranquil lake. Enjoy fishing, boating, and stunning sunsets from your private dock.",
+      "price_per_month": 1800,
+      "location": "321 Lakeview Drive, Lakeside",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1000,
+      "image": "/images/properties/7.png",
+      "features": ["Private Dock", "Waterfront Patio", "Fire Pit"]
+    },
+    {
+      "id": 8,
+      "title": "Historic Townhouse in Old Town",
+      "description": "Elegant townhouse steeped in history and charm. Located in the heart of Old Town, steps away from shops and restaurants.",
+      "price_per_month": 2800,
+      "location": "456 Heritage Lane, Old Town",
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 2000,
+      "image": "/images/properties/8.png",
+      "features": [
+        "Original Hardwood Floors",
+        "Antique Fixtures",
+        "Private Courtyard"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mountain Retreat Cabin",
+      "description": "Secluded cabin nestled in the mountains, offering breathtaking views and tranquility. Perfect for a relaxing getaway.",
+      "price_per_month": 1500,
+      "location": "987 Mountain Ridge Road, Mountainville",
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "sqft": 1200,
+      "image": "/images/properties/9.png",
+      "features": ["Scenic Mountain Views", "Hot Tub", "Deck with BBQ Grill"]
+    }
+  ]
+}

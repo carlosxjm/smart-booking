@@ -1,0 +1,35 @@
+:root {
+  --brand-color: #ffa500;
+  --text-color: #444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+input {
+  height: 2.2rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid var(--text-color);
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+.container {
+  width: 1080px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.text-small {
+  font-size: 0.8rem;
+}

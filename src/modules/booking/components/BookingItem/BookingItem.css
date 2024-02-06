@@ -1,0 +1,48 @@
+.booking-item-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--brand-color);
+}
+
+.booking-item-root .info-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.2rem;
+  min-width: 60%;
+}
+
+.booking-item-root .info-wrapper .info p:not(.text-small) {
+  margin-bottom: 0.5rem;
+}
+
+.booking-item-root .info-wrapper .info p.text-small {
+  margin-bottom: 0.2rem;
+}
+
+.booking-item-root .property-image-wrapper {
+  width: 100px;
+  max-width: 80px;
+}
+
+.booking-item-root .property-image-wrapper img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.booking-item-root .actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 780px) {
+  .booking-item-root {
+    flex-direction: row;
+  }
+}

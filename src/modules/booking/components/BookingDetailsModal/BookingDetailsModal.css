@@ -1,0 +1,33 @@
+.booking-details-modal-root {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.booking-details-modal-root .booking-info-wrapper {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.booking-details-modal-root .booking-info-wrapper > p {
+  margin-bottom: 0.5rem;
+}
+
+.booking-details-modal-root .booking-info-wrapper > p:first-child {
+  margin-bottom: 1rem;
+}
+.booking-details-modal-root .booking-info-wrapper > p > span {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 780px) {
+  .booking-details-modal-root {
+    flex-direction: row;
+  }
+
+  .booking-details-modal-root .property-card-wrapper {
+    max-width: 60%;
+    width: 48%;
+  }
+}
