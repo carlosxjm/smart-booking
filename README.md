@@ -29,16 +29,16 @@ The dependencies required to run the project locally are:
 - Node.js
 - npm (or Yarn, if preferred)
 
-## Instructions to Run the Project:
+## Instructions to run the project:
 
 To run the project locally, follow the steps below:
 
 1. Clone the GitHub repository: `https://github.com/carlosxjm/smart-booking`
 2. Install project dependencies using the command `npm install`.
-3. Run the project with the command `npm start`.
+3. Run the project with the command `npm run dev`.
 4. Access the application in your browser using the provided local address.
 
-## Running the Project with Docker:
+## Running with Docker:
 
 If you prefer, you can run the project using Docker and Docker Compose. To do this, follow the steps below:
 
@@ -47,3 +47,11 @@ If you prefer, you can run the project using Docker and Docker Compose. To do th
 3. Navigate to the cloned project directory.
 4. Run the command `docker-compose up -d` to build and start Docker containers in the background.
 5. Access the application in your browser using the provided local address.
+
+## Running unit test:
+
+To run unit tests for the project, execute the following command:
+
+```bash
+npm run test:unit
+```
