@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { Navigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { BookingNew } from "./BookingNew";
 import { useBookingContext } from "../../context/useBookingContext";
 import { BookingForm } from "../../components/BookingForm/BookingForm";
