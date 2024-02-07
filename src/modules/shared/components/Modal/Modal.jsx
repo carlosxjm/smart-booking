@@ -33,7 +33,7 @@ export const Modal = ({ title, isOpen, onClose, children }) => {
             tabIndex={0}
           >
             <header>
-              {title && <h2>{title}</h2>}
+              <div>{title && <h2>{title}</h2>}</div>
               <button
                 className="modal-close-button"
                 onClick={onClose}

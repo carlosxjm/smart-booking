@@ -1,4 +1,3 @@
 export const ADD_BOOKING = "ADD_BOOKING";
 export const REMOVE_BOOKING = "REMOVE_BOOKING";
 export const UPDATE_BOOKING = "UPDATE_BOOKING";
-export const EDITING_BOOKING = "EDITING_BOOKING";

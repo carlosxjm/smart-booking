@@ -11,7 +11,7 @@ export const PropertySelectList = () => {
         {properties.map((property) => (
           <Link
             key={property.id}
-            to={`/${property.id}/new`}
+            to={`/create/${property.id}`}
             className="property-select-list-item"
           >
             <PropertyCard {...property} />

@@ -1,0 +1,11 @@
+.booking-remove-modal-root h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.booking-remove-modal-root .actions {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 20rem;
+  margin: auto;
+}

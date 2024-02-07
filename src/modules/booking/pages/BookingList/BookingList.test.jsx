@@ -1,9 +1,9 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { render, fireEvent, screen } from "@testing-library/react";
 import { BookingList } from "./BookingList";
+import { BookingEditModal } from "../../components/BookingEditModal/BookingEditModal";
 
 const removeBookingMock = vi.fn();
-const startEditingBookingMock = vi.fn();
 
 vi.mock("react-router-dom", () => ({
   useNavigate: vi.fn(() => vi.fn()),
@@ -42,10 +42,12 @@ vi.mock("../../context/useBookingContext", () => ({
     },
     actions: {
       removeBooking: removeBookingMock,
-      startEditingBooking: startEditingBookingMock,
-      stopEditingBooking: vi.fn(),
     },
   })),
+}));
+
+vi.mock("../../components/BookingEditModal/BookingEditModal", () => ({
+  BookingEditModal: vi.fn(),
 }));
 
 describe("BookingList", () => {
@@ -62,29 +64,35 @@ describe("BookingList", () => {
     expect(screen.getByText("Booked for Jane Doe")).toBeInTheDocument();
   });
 
-  it("calls removeBooking action when remove button is clicked", () => {
-    window.confirm = () => true;
-
+  it("removes booking", () => {
     render(<BookingList />);
     const removeButton = screen.getAllByLabelText("Remove Booking").at(0);
 
     fireEvent.click(removeButton);
 
+    const confirmRemoveButton = screen.getByText("Yes, delete it!");
+
+    fireEvent.click(confirmRemoveButton);
+
     expect(removeBookingMock).toHaveBeenCalled();
   });
 
-  it("calls startEditingBooking action when edit button is clicked", () => {
+  it("edits booking", () => {
     render(<BookingList />);
     const editButton = screen.getAllByText("Edit").at(0);
-
     fireEvent.click(editButton);
 
-    expect(startEditingBookingMock).toHaveBeenCalledWith({
-      id: "1",
-      guestName: "John Doe",
-      startDate: "2024-02-10",
-      endDate: "2024-02-15",
-      propertyId: "1",
-    });
+    expect(BookingEditModal).toHaveBeenCalledWith(
+      expect.objectContaining({
+        booking: {
+          id: "1",
+          guestName: "John Doe",
+          startDate: "2024-02-10",
+          endDate: "2024-02-15",
+          propertyId: "1",
+        },
+      }),
+      {}
+    );
   });
 });

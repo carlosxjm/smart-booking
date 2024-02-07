@@ -10,7 +10,6 @@ import { properties } from "../../../property/data/properties-mock.json";
 const navigateMock = vi.fn();
 
 vi.mock("react-router-dom", () => ({
-  Navigate: vi.fn(),
   useParams: vi.fn(() => ({ propertyId: undefined })),
   useNavigate: vi.fn(() => navigateMock),
 }));
@@ -30,25 +29,9 @@ vi.mock("../../../property/components/PropertyCard/PropertyCard", () => ({
   PropertyCard: vi.fn(() => <div data-testid="property-card" />),
 }));
 
-window.alert = vi.fn();
-
 describe("BookingNew", () => {
   beforeEach(() => {
     vi.clearAllMocks();
-  });
-
-  it("redirects to /new/property if propertyId is not provided", () => {
-    useParams.mockImplementation(() => ({ propertyId: undefined }));
-
-    render(<BookingNew />);
-
-    expect(Navigate).toHaveBeenCalledWith(
-      {
-        replace: true,
-        to: "/new/property",
-      },
-      {}
-    );
   });
 
   it("renders booking form with selected property", async () => {
@@ -96,6 +79,5 @@ describe("BookingNew", () => {
       startDate: "2023-01-02",
     });
     expect(navigateMock).toHaveBeenCalledWith("/");
-    expect(window.alert).toHaveBeenCalledWith("Booked with success");
   });
 });

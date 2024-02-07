@@ -3,10 +3,12 @@
   flex-direction: column;
   gap: 2rem;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 780px) {
   .booking-edit-modal-root {
     flex-direction: row;
+    margin-bottom: 0;
   }
 }

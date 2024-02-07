@@ -16,8 +16,7 @@
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   position: relative;
-  max-height: 90vh;
-  height: 90vh;
+  max-height: 90%;
   width: 90%;
   max-width: 780px;
   overflow: hidden;
@@ -25,7 +24,8 @@
 }
 
 .modal-root .modal-container header {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,7 +38,7 @@
 .modal-root .modal-container .modal-content {
   overflow: auto;
   position: relative;
-  max-height: 100%;
+  max-height: 90vh;
   padding: 1rem;
   padding-bottom: 4rem;
 }
@@ -63,5 +63,12 @@
   .modal-root .modal-container header,
   .modal-root .modal-container .modal-content {
     padding: 2rem;
+  }
+  .modal-root .modal-container header {
+    padding-bottom: 0.5;
+  }
+
+  .modal-root .modal-container .modal-content {
+    padding-top: 0;
   }
 }

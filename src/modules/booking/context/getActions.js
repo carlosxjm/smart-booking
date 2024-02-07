@@ -1,9 +1,4 @@
-import {
-  ADD_BOOKING,
-  EDITING_BOOKING,
-  REMOVE_BOOKING,
-  UPDATE_BOOKING,
-} from "./actionTypes";
+import { ADD_BOOKING, REMOVE_BOOKING, UPDATE_BOOKING } from "./actionTypes";
 
 export const getActions = (dispatch) => ({
   addBooking: (booking) => {
@@ -14,11 +9,5 @@ export const getActions = (dispatch) => ({
   },
   updateBooking: (booking) => {
     dispatch({ type: UPDATE_BOOKING, payload: booking });
-  },
-  startEditingBooking: (booking) => {
-    dispatch({ type: EDITING_BOOKING, payload: booking });
-  },
-  stopEditingBooking: () => {
-    dispatch({ type: EDITING_BOOKING, payload: null });
   },
 });

@@ -15,10 +15,12 @@ export const BookingEditModal = ({ booking, property, onClose }) => {
 
   const handleSubmit = (formData) => {
     actions.updateBooking({
+      id: booking.id,
       guestName: formData.guestName,
       startDate: formatDateToSave(formData.period[0]),
       endDate: formatDateToSave(formData.period[1]),
     });
+    onClose();
   };
 
   return (

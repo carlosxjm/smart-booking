@@ -11,8 +11,10 @@ export const App = () => (
       <Routes>
         <Route path="/" element={<DefaultLayout />}>
           <Route path="/:bookingId?" element={<BookingList />} />
-          <Route path="/select-property" element={<PropertySelectList />} />
-          <Route path="/:propertyId/new" element={<BookingNew />} />
+          <Route path="/create">
+            <Route index element={<PropertySelectList />} />
+            <Route path=":propertyId" element={<BookingNew />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

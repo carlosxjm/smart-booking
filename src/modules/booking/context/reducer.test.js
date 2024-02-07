@@ -1,11 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { reducer } from "./reducer";
-import {
-  ADD_BOOKING,
-  EDITING_BOOKING,
-  REMOVE_BOOKING,
-  UPDATE_BOOKING,
-} from "./actionTypes";
+import { ADD_BOOKING, REMOVE_BOOKING, UPDATE_BOOKING } from "./actionTypes";
 
 describe("Reducer", () => {
   window.crypto = {
@@ -47,19 +42,6 @@ describe("Reducer", () => {
     expect(state.bookings).toHaveLength(0);
   });
 
-  it("sets editing booking", () => {
-    const action = {
-      type: EDITING_BOOKING,
-      payload: { id: "1", guestName: "John Doe" },
-    };
-
-    const state = reducer(initialState, action);
-
-    expect(state.editingBooking).toEqual(
-      expect.objectContaining({ id: "1", guestName: "John Doe" })
-    );
-  });
-
   it("updates a booking", () => {
     const initialStateWithBooking = {
       bookings: [{ id: "1", guestName: "John Doe" }],
@@ -73,7 +55,6 @@ describe("Reducer", () => {
 
     const state = reducer(initialStateWithBooking, action);
 
-    expect(state.editingBooking).toBeNull();
     expect(state.bookings[0]).toEqual(
       expect.objectContaining({ id: "1", guestName: "Jane Doe" })
     );

@@ -1,9 +1,4 @@
-import {
-  ADD_BOOKING,
-  EDITING_BOOKING,
-  REMOVE_BOOKING,
-  UPDATE_BOOKING,
-} from "./actionTypes";
+import { ADD_BOOKING, REMOVE_BOOKING, UPDATE_BOOKING } from "./actionTypes";
 
 export const reducer = (state, action) => {
   switch (action.type) {
@@ -25,17 +20,12 @@ export const reducer = (state, action) => {
           (booking) => booking.id !== action.payload
         ),
       };
-    case EDITING_BOOKING:
-      return {
-        ...state,
-        editingBooking: action.payload ?? null,
-      };
     case UPDATE_BOOKING:
       return {
         ...state,
         editingBooking: null,
         bookings: state.bookings.map((booking) =>
-          booking.id === state.editingBooking.id
+          booking.id === action.payload.id
             ? {
                 ...booking,
                 ...action.payload,

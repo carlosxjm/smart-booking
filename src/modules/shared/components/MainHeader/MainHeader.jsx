@@ -53,7 +53,7 @@ export const MainHeader = () => {
             </li>
             <li>
               <NavLink
-                to="/select-property"
+                to="/create"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 <Button variant="text" tabIndex="-1">

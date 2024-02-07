@@ -65,6 +65,7 @@ describe("BookingEditModal", () => {
     BookingForm.mock.calls[0][0].onSubmit(formDataMock);
 
     expect(updateBookingMock).toHaveBeenCalledWith({
+      id: "1",
       guestName: "Jane Doe",
       endDate: "2024-02-24",
       startDate: "2024-02-19",

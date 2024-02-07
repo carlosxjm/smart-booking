@@ -18,7 +18,7 @@ describe("PropertySelectList", () => {
     const links = screen.getAllByTestId("property-link");
 
     properties.forEach((property, index) => {
-      expect(links[index].getAttribute("href")).toBe(`/${property.id}/new`);
+      expect(links[index].getAttribute("href")).toBe(`/create/${property.id}`);
       expect(screen.getByText(property.title)).toBeInTheDocument();
     });
     expect(links).toHaveLength(properties.length);

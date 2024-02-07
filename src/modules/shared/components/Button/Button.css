@@ -10,6 +10,16 @@
   cursor: pointer;
 }
 
+.button-root.button-danger {
+  background-color: #d13f3f;
+  color: white;
+}
+
+.button-root.button-secondary {
+  background-color: #fff;
+  border: 2px solid var(--brand-color);
+}
+
 .button-root.button-icon {
   background: none;
   display: flex;

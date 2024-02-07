@@ -1,5 +1,5 @@
 import { properties } from "../../../property/data/properties-mock.json";
-import { Navigate, useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { BookingForm } from "../../components/BookingForm/BookingForm";
 import { PropertyCard } from "../../../property/components/PropertyCard/PropertyCard";
 import { useBookingContext } from "../../context/useBookingContext";
@@ -10,10 +10,6 @@ export const BookingNew = () => {
   const { propertyId } = useParams();
   const { bookings, actions } = useBookingContext();
   const navigate = useNavigate();
-
-  if (!propertyId) {
-    return <Navigate to="/new/property" replace />;
-  }
 
   const selectedProperty = properties.find(({ id }) => id === +propertyId);
 
@@ -31,7 +27,6 @@ export const BookingNew = () => {
       endDate: formatDateToSave(period[1]),
     });
 
-    window.alert("Booked with success");
     navigate("/");
   };
 
