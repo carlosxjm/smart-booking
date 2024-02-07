@@ -25,6 +25,7 @@
   top: calc(100%);
   right: 0;
   background-color: #fff;
+  z-index: 2;
 }
 
 .main-header-root nav.close {
@@ -48,6 +49,10 @@
 .main-header-root a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+.main-header-root a.active button {
+  font-weight: 700;
 }
 
 .toggle-menu {

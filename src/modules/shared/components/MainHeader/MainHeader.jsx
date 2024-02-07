@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Button } from "../Button/Button";
 import "./MainHeader.css";
 
 export const MainHeader = () => {
@@ -41,10 +42,24 @@ export const MainHeader = () => {
         <nav className={showMenu ? "open" : "close"}>
           <ul>
             <li>
-              <Link to="/">All bookings</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                <Button variant="text" tabIndex="-1">
+                  All bookings
+                </Button>
+              </NavLink>
             </li>
             <li>
-              <Link to="/select-property">New booking</Link>
+              <NavLink
+                to="/select-property"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                <Button variant="text" tabIndex="-1">
+                  New booking
+                </Button>
+              </NavLink>
             </li>
           </ul>
         </nav>

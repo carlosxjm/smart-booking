@@ -5,6 +5,9 @@
   padding: 1rem 0;
   border-bottom: 1px solid var(--brand-color);
 }
+.booking-item-root:last-child {
+  border-bottom: none;
+}
 
 .booking-item-root .info-wrapper {
   display: flex;
